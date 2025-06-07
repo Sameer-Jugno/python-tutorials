@@ -59,3 +59,16 @@ git branch -d <branch name> -- to delete a branch
 
 
 * Mergin the Branches
+
+
+
+* Undoing the changes in the Git Hub
+
+git reset <file name> -- stages changes 
+
+git reset HEAD-1 -- commited changes for one commit 
+
+git reset <commit hash> -- for main commits
+
+git reset --hard <commit hash>  -- for many commits 
+
