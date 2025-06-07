@@ -41,3 +41,7 @@ modified (M) -- files that changed
 staged (S) -- Files that ready to be commited 
 
 unmodified -- Files that are unchanged 
+
+* To upload repo of local machine 
+
+git remote add origin <link>
