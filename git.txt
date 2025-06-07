@@ -1,0 +1,43 @@
+git config --global user.email "email" -- input email in config file
+git config --global user.name "name" -- same as previous 
+
+git config --list -- list all files in global
+
+git status -- show the current status of repo
+git init -- create a new folder and initialize it as repo
+
+git add . -- to move all files to staging area
+
+git commit -m "message" -- is used to move files from staging to repo
+
+git branch - This command lists all the branches in the current repository.
+
+git branch bug-fix - This command creates a new branch called bug-fix.
+
+git switch bug-fix - This command switches to the bug-fix branch.
+
+git log - This command shows the commit history for the current branch.
+
+git switch main - This command switches to the main branch.
+
+git switch -c dark-mode - This command creates a new branch called dark-mode. the -c flag is used to create a new branch.
+
+git checkout orange-mode - This command switches to the orange-mode branch
+
+git branch -m <old-branch-name> <new-branch-name> -- renaming a branch 
+
+git branch -d <branch-name> -- deleting a branch 
+
+git checkout <branch-name> -- means that you are going to work on that branch
+    
+git clone <some link> clone a repository on our local machine
+
+Four Status of Git 
+
+untracked (U) -- new files that git did'nt tracked yet 
+
+modified (M) -- files that changed 
+
+staged (S) -- Files that ready to be commited 
+
+unmodified -- Files that are unchanged 
