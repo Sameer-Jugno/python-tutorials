@@ -45,3 +45,14 @@ unmodified -- Files that are unchanged
 * To upload repo of local machine 
 
 git remote add origin <link>
+
+* Branches Commands 
+git branch -- to check the existing branch 
+
+git branch -M <new name> -- to update existing branch name 
+
+git checkout <branch name> -- to navigaet to another branch 
+
+git checkout -b <new branch name> -- to create a new branch 
+
+git branch -d <branch name> -- to delete a branch 
